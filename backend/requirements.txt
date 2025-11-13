@@ -1,0 +1,25 @@
+fastapi==0.116.1
+uvicorn==0.35.0
+sqlalchemy==2.0.43
+psycopg2-binary==2.9.10   # PostgreSQL driver
+python-dotenv             # load .env configs
+pydantic==2.11.7
+passlib[bcrypt]==1.7.4 # for password hashing
+bcrypt==4.0.1
+python-jose[cryptography]==3.5.0  # JWT auth
+alembic                   # DB migrations
+httpx                     # async HTTP calls (notifications, APIs, etc.)
+pytest                    # testing
+firebase-admin            # Firebase push notifications via FCM
+python-multipart          # Required if you handle form-data uploads (images, files, etc.)
+email-validator           # Useful for validating user emails on signup
+
+# Added for Render / protobuf compatibility
+protobuf<6.0.0
+grpcio==1.59.5
+
+sendgrid==6.12.5
+
+
+
+

@@ -1,0 +1,65 @@
+{
+  "default": {
+    "heart_rate": { "low": 60, "high": 100 },
+    "blood_pressure": { "systolic": { "low": 90, "high": 140 }, "diastolic": { "low": 60, "high": 90 } },
+    "oxygen_saturation": { "low": 95, "high": 100 },
+    "temperature": { "low": 36.1, "high": 37.2 }
+  },
+
+  "elderly_60s": {
+    "heart_rate": { "low": 58, "high": 102 },
+    "blood_pressure": { "systolic": { "low": 95, "high": 145 }, "diastolic": { "low": 60, "high": 90 } },
+    "oxygen_saturation": { "low": 94, "high": 100 },
+    "temperature": { "low": 36.0, "high": 37.4 }
+  },
+  "elderly_70s": {
+    "heart_rate": { "low": 55, "high": 105 },
+    "blood_pressure": { "systolic": { "low": 100, "high": 150 }, "diastolic": { "low": 65, "high": 95 } },
+    "oxygen_saturation": { "low": 93, "high": 100 },
+    "temperature": { "low": 36.0, "high": 37.5 }
+  },
+  "elderly_80s": {
+    "heart_rate": { "low": 53, "high": 108 },
+    "blood_pressure": { "systolic": { "low": 105, "high": 155 }, "diastolic": { "low": 65, "high": 95 } },
+    "oxygen_saturation": { "low": 92, "high": 100 },
+    "temperature": { "low": 35.9, "high": 37.6 }
+  },
+
+  "athlete_young": {
+    "heart_rate": { "low": 40, "high": 85 },
+    "blood_pressure": { "systolic": { "low": 85, "high": 130 }, "diastolic": { "low": 55, "high": 85 } },
+    "oxygen_saturation": { "low": 97, "high": 100 },
+    "temperature": { "low": 36.3, "high": 37.0 }
+  },
+  "athlete_adult": {
+    "heart_rate": { "low": 42, "high": 88 },
+    "blood_pressure": { "systolic": { "low": 88, "high": 132 }, "diastolic": { "low": 57, "high": 86 } },
+    "oxygen_saturation": { "low": 96, "high": 100 },
+    "temperature": { "low": 36.2, "high": 37.0 }
+  },
+  "athlete_senior": {
+    "heart_rate": { "low": 45, "high": 90 },
+    "blood_pressure": { "systolic": { "low": 90, "high": 135 }, "diastolic": { "low": 60, "high": 88 } },
+    "oxygen_saturation": { "low": 95, "high": 100 },
+    "temperature": { "low": 36.1, "high": 37.1 }
+  },
+
+  "chronic_young": {
+    "heart_rate": { "low": 62, "high": 108 },
+    "blood_pressure": { "systolic": { "low": 105, "high": 150 }, "diastolic": { "low": 70, "high": 95 } },
+    "oxygen_saturation": { "low": 92, "high": 100 },
+    "temperature": { "low": 35.8, "high": 38.0 }
+  },
+  "chronic_adult": {
+    "heart_rate": { "low": 60, "high": 110 },
+    "blood_pressure": { "systolic": { "low": 110, "high": 160 }, "diastolic": { "low": 75, "high": 100 } },
+    "oxygen_saturation": { "low": 90, "high": 100 },
+    "temperature": { "low": 35.5, "high": 38.0 }
+  },
+  "chronic_senior": {
+    "heart_rate": { "low": 58, "high": 112 },
+    "blood_pressure": { "systolic": { "low": 115, "high": 165 }, "diastolic": { "low": 75, "high": 105 } },
+    "oxygen_saturation": { "low": 89, "high": 100 },
+    "temperature": { "low": 35.5, "high": 38.2 }
+  }
+}
